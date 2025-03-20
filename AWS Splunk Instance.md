@@ -1,6 +1,6 @@
 # Splunk Home Lab on AWS
 
-This repository documents my journey setting up a personal Splunk home lab on an AWS EC2 instance. It's designed for learning Splunk and experimenting with data analysis.
+This repository documents my journey setting up a personal Splunk home lab on an AWS Lightsail instance. It's designed for learning Splunk and experimenting with data analysis.
 
 ## Objectives
 
@@ -10,12 +10,12 @@ This repository documents my journey setting up a personal Splunk home lab on an
 * Explore Splunk's search processing language (SPL).
 * Understand basic Splunk administration and maintenance.
 * Document the process and best practices for future reference.
-* Improve AWS EC2 management skills.
+* Improve AWS Lightsail management skills.
 
 ## Skills Learned
 
 * **AWS EC2 Management:**
-    * Launching and configuring EC2 instances.
+    * Launching and configuring Lightsail instances.
     * Managing security groups and key pairs.
     * SSH access and basic Linux administration.
 * **Splunk Enterprise Installation and Configuration:**
