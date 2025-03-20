@@ -32,6 +32,13 @@ This repository provides a step-by-step guide on creating an Amazon Lightsail Li
     * **Choose or create an SSH key pair:**
         * Lightsail will create a default key pair for your region. You can use it, or create your own. For this tutorial we will use the default.
     * Click "Create instance."
+      
+![Image](https://github.com/user-attachments/assets/61909858-d9e6-4780-b37d-be7decd87492)
+
+![Image](https://github.com/user-attachments/assets/da9168ea-3cef-4f75-a477-1768cbedf5b6)
+
+![Image](https://github.com/user-attachments/assets/c73c4872-7ec9-4081-92f9-e70cdce60f8e)
+
 
 4.  **Wait for Instance Creation:**
     * The instance creation process will take a few minutes. You can monitor the progress in the Lightsail console.
@@ -41,6 +48,10 @@ This repository provides a step-by-step guide on creating an Amazon Lightsail Li
     * On the instance management page, you'll see a section labeled "Connect."
     * Click the "Connect using SSH" button. This will open a browser-based SSH terminal directly in your web browser.
     * You are now logged into your "Splunk-Enterprise-Instance" via SSH.
+  
+![Image](https://github.com/user-attachments/assets/4b0d7859-02f1-4634-8a6d-0caaa7c4a1e1)
+
+![Image](https://github.com/user-attachments/assets/a0b79dfc-9b53-42c2-9841-96dfaa996411)
 
 ## Next Steps (Optional)
 
@@ -56,6 +67,3 @@ This repository provides a step-by-step guide on creating an Amazon Lightsail Li
 * Always keep your instance updated with the latest security patches.
 * Consider creating a snapshot of the instance after the base configuration is complete.
 
-## Contributing
-
-Feel free to contribute to this repository by submitting pull requests or opening issues for improvements or bug fixes.
