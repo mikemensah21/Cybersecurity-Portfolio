@@ -1,4 +1,4 @@
-# Amazon Lightsail Linux 2 Instance Setup: Splunk Enterprise
+# AWS Lightsail Linux 2 Instance Setup: Splunk Enterprise
 
 This repository provides a step-by-step guide on creating an Amazon Lightsail Linux 2 instance with specific resource configurations and connecting to it via the browser's SSH client.
 
