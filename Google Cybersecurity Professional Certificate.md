@@ -1,6 +1,6 @@
 # Google Cybersecurity Professional Certificate
 
-This repository documents my experience and projects completed as part of the Google Cybersecurity Professional Certificate program.
+https://www.coursera.org/professional-certificates/google-cybersecurity
 
 ## Objectives
 
