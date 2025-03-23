@@ -24,6 +24,10 @@ This lab guides you through creating and managing IAM users, groups, and policie
 * Create two groups: `Developers` and `ReadOnlyUsers`.
 * Don't attach policies yet.
 
+![Image](https://github.com/user-attachments/assets/927af6f8-762e-4cab-90ea-31d4323aa42d)
+
+![Image](https://github.com/user-attachments/assets/29575f87-82bf-4072-9664-0177e8fe3e8e)
+
 **2. Create IAM Users:**
 
 * Go to "Users" and click "Add users."
@@ -32,12 +36,20 @@ This lab guides you through creating and managing IAM users, groups, and policie
 * Uncheck "Users must create a new password at next sign-in" for simplicity in this lab.
 * Download the `.csv` file containing the user credentials and store it securely.
 
+![Image](https://github.com/user-attachments/assets/c5a3f9e9-0ba2-4143-b155-2c9fb22f0667)
+
+![Image](https://github.com/user-attachments/assets/c9e2b9bf-c9ab-4824-8755-191798d39445)
+
 **3. Assign Users to Groups:**
 
 * Go to "User groups."
 * Select the `Developers` group and click "Add users to group."
 * Add `dev-alice` and `dev-bob` to the `Developers` group.
 * Select the `ReadOnlyUsers` group and add `read-only-charlie` to the `ReadOnlyUsers` group.
+
+![Image](https://github.com/user-attachments/assets/a9e7259c-b987-4c3c-97e2-b5876cb2c954)
+
+![Image](https://github.com/user-attachments/assets/3107c21c-961d-49fa-a932-0ebf082b91ff)
 
 **4. Create and Attach Policies:**
 
@@ -90,6 +102,10 @@ This lab guides you through creating and managing IAM users, groups, and policie
 * Attach the `DevelopersS3Access` policy.
 * Select the `ReadOnlyUsers` group, go to the "Permissions" tab, and attach the `ReadOnlyS3Access` policy.
 
+![Image](https://github.com/user-attachments/assets/868ec222-d2af-4b0f-93dc-cc18a6100371)
+
+![Image](https://github.com/user-attachments/assets/a09c2bd2-14bd-4ba0-b3c0-6ec363f19b37)
+
 **5. Test User Permissions:**
 
 * Open a new browser window or an incognito window.
@@ -100,6 +116,12 @@ This lab guides you through creating and managing IAM users, groups, and policie
 * Navigate to the S3 console.
 * Try listing and downloading objects. Try creating or deleting buckets. Those actions should be denied.
 * Log in as `dev-bob` and repeat the developer tests.
+
+![Image](https://github.com/user-attachments/assets/b9edbc24-58a8-4674-b8d4-2d974428da71)
+
+![Image](https://github.com/user-attachments/assets/53504c96-0ef6-49e0-ae3d-4cc0a241ce5e)
+
+![Image](https://github.com/user-attachments/assets/0123a06d-c360-4116-9db9-8ac36363b5f9)
 
 **6. Implement Least Privilege (Optional):**
 
