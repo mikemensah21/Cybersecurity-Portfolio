@@ -101,7 +101,7 @@ This lab guides you through creating and managing IAM users, groups, and policie
 * Try listing and downloading objects. Try creating or deleting buckets. Those actions should be denied.
 * Log in as `dev-bob` and repeat the developer tests.
 
-**6. Implement Least Privilege:**
+**6. Implement Least Privilege (Optional):**
 
 * Edit the `DevelopersS3Access` policy to restrict access to specific S3 buckets or prefixes.
     * Modify the `Resource` section to:
