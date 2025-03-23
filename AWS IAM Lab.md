@@ -1,4 +1,4 @@
-# AWS IAM Lab
+# AWS Identity Access Management (IAM) Lab
 
 This lab guides you through creating and managing IAM users, groups, and policies in AWS. It demonstrates how to control access and secure your environment using IAM best practices.
 
