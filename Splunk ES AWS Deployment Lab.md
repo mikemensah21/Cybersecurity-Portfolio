@@ -1,4 +1,4 @@
-# Splunk Deployment Lab Setup (AWS Lightsail SSH)
+# Splunk ES Deployment Lab Setup (AWS Lightsail SSH)
 
 This guide outlines the steps to deploy a Splunk Enterprise instance on an AWS Lightsail instance, leveraging SSH for initial setup and systemd for service management.
 
