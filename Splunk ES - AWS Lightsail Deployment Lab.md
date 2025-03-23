@@ -48,7 +48,7 @@ This guide outlines the steps to deploy a Splunk Enterprise instance on an AWS L
     * You can obtain the latest download link from the Splunk website.
 
     ```bash
-    sudo wget -O splunk-9.0.0-6818ac46f2ec-Linux-x86_64.tgz "[https://download.splunk.com/products/splunk/releases/9.0.0/linux/splunk-9.0.0-6818ac46f2ec-Linux-x86_64.tgz](https://www.google.com/search?q=https://download.splunk.com/products/splunk/releases/9.0.0/linux/splunk-9.0.0-6818ac46f2ec-Linux-x86_64.tgz)"
+    sudo wget -O splunk-9.0.0-6818ac46f2ec-Linux-x86_64.tgz "https://download.splunk.com/products/splunk/releases/9.0.0/linux/splunk-9.0.0-6818ac46f2ec-Linux-x86_64.tgz"
     ```
 
 3.  **Extract the Splunk Enterprise package.**
@@ -56,13 +56,7 @@ This guide outlines the steps to deploy a Splunk Enterprise instance on an AWS L
     ```bash
     sudo tar xvzf splunk-9.0.0-6818ac46f2ec-Linux-x86_64.tgz -C /opt
     ```
-
-4.  **Change the ownership of the Splunk directory to the `splunk` user.**
-
-    ```bash
-    sudo chown -R splunk:splunk /opt/splunk
-    ```
-
+    
 ## Step 3: Enable Boot Start with Systemd
 
 1.  **Switch to the `splunk` user.**
@@ -71,42 +65,27 @@ This guide outlines the steps to deploy a Splunk Enterprise instance on an AWS L
     sudo su splunk
     ```
 
-2.  **Navigate to the Splunk `bin` directory.**
+2.  **Navigate to the Splunk `bin` directory. Enable Splunk boot start with systemd. Start Splunk Enterprise and accept the license agreement.**
 
     ```bash
-    cd /opt/splunk/bin
+    sudo /opt/splunk/bin/splunk start --accept-license
     ```
 
-3.  **Enable Splunk boot start with systemd.**
+3.  **Create Splunk Username and Password**
 
-    ```bash
-    ./splunk enable boot-start -systemd-managed 1 -systemd-unit-file-name splunk
-    ```
-
-4.  **Start Splunk Enterprise and accept the license agreement.**
-
-    ```bash
-    sudo ./splunk start --accept-license
-    ```
-
-5.  **Verify Splunk status.**
-
-    ```bash
-    ./splunk status
-    ```
-
-    * You should see output indicating that Splunkd is running.
-
+    * Username: `admin`
+    * Password: `password`
+   
 ## Step 4: Access Splunk Web Interface
 
 1.  **Open a web browser and navigate to the public IP address of your Lightsail instance on port 8000.**
 
     * `http://<lightsail_public_ip>:8000`
 
-2.  **Log in with the default credentials:**
+2.  **Log in with the created credentials:**
 
     * Username: `admin`
-    * Password: `changeme` (You will be prompted to change this password immediately after logging in.)
+    * Password: `password`
 
 ## Security Considerations
 
