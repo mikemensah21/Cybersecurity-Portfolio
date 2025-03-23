@@ -34,6 +34,8 @@ This guide outlines the steps to deploy a Splunk Enterprise instance on an AWS L
     sudo mkdir /opt/splunk
     ```
 
+![Image](https://github.com/user-attachments/assets/f20dbe64-a334-4123-b95a-c51e8c822edf)    
+
 ## Step 2: Download and Install Splunk Enterprise
 
 1.  **Navigate to the `/opt` directory.**
@@ -56,6 +58,8 @@ This guide outlines the steps to deploy a Splunk Enterprise instance on an AWS L
     ```bash
     sudo tar xvzf splunk-9.0.0-6818ac46f2ec-Linux-x86_64.tgz -C /opt
     ```
+
+![Image](https://github.com/user-attachments/assets/5ea0d2e0-bec2-41f9-a5c2-d76da8c1e763)    
     
 ## Step 3: Enable Boot Start with Systemd
 
@@ -75,6 +79,8 @@ This guide outlines the steps to deploy a Splunk Enterprise instance on an AWS L
 
     * Username: `admin`
     * Password: `password`
+  
+![Image](https://github.com/user-attachments/assets/97638728-6884-45b6-b5d7-d7aa93999a5c)
    
 ## Step 4: Access Splunk Web Interface
 
@@ -86,6 +92,10 @@ This guide outlines the steps to deploy a Splunk Enterprise instance on an AWS L
 
     * Username: `admin`
     * Password: `password`
+  
+![Image](https://github.com/user-attachments/assets/4306abfb-b9e8-4069-8c2d-8d19a7cd6c1e)
+
+![Image](https://github.com/user-attachments/assets/2fe828fb-e183-479b-8fda-f75ff1393ff3)
 
 ## Security Considerations
 
