@@ -23,6 +23,6 @@ I particularly enjoyed working with familiar tools like SIEMs, Wireshark, and Sn
 
 This exposure to a wide range of tools significantly broadened my understanding of SOC operations and incident response.
 
-## Certificate
+## Description
 
-...
+![Image](https://github.com/user-attachments/assets/fc3079c8-b730-421d-ba5b-f9915bdf36fd)
